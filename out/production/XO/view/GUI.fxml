@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="700.0" prefWidth="600.0" style="-fx-background-color: aqua" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+    <ColumnConstraints   prefWidth="200.0" />
+    <ColumnConstraints   prefWidth="200.0" />
+      <ColumnConstraints  prefWidth="200.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints prefHeight="100" />
+    <RowConstraints  prefHeight="200"  />
+    <RowConstraints  prefHeight="200" />
+    <RowConstraints  prefHeight="200"  />
+  </rowConstraints>
+   <children>
+       <Button  prefHeight="200.0" prefWidth="200.0"  text="1" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="1"  />
+       <Button  prefHeight="200.0" prefWidth="200.0"  text="2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1"/>
+       <Button  prefHeight="200.0" prefWidth="200.0" text="3" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1"/>
+       <Button  prefHeight="200.0" prefWidth="200.0" text="4" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="2"/>
+       <Button  prefHeight="200.0" prefWidth="200.0" text="5" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2"/>
+       <Button  prefHeight="200.0" prefWidth="200.0" text="6" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2"/>
+       <Button  prefHeight="200.0" prefWidth="200.0" text="7" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="3"/>
+       <Button  prefHeight="200.0" prefWidth="200.0" text="8" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3"/>
+       <Button  prefHeight="200.0" prefWidth="200.0" text="9" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3"/>
+   </children>
+</GridPane>
